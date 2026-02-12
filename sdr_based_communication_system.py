@@ -119,7 +119,7 @@ class DataLinkLayer:
 # =============================================================================
 def run_robot_control():
     phy = PhysicalLayer()
-    dll = DataLinkLayer(threshold=2) # Πιο robust threshold για χαμηλό SNR
+    dll = DataLinkLayer(threshold=2) 
     
     COMMANDS = {
         "FORWARD":  np.array([0,0,0,0,0,0,0,1]),
@@ -165,4 +165,5 @@ def run_robot_control():
 
 if __name__ == "__main__":
     run_robot_control()
+
 
