@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
 # =============================================================================
 # CONFIGURATION
@@ -165,5 +164,6 @@ def run_robot_control():
 
 if __name__ == "__main__":
     run_robot_control()
+
 
 
